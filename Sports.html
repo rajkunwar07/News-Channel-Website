@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <title> News channel website</title>
+        <link rel="stylesheet" href="css/font-awesome.css">
+    </head>
+    <body>
+        <section class=" sub-header1">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" width="150px"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                     <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="economy.html">ECONOMY</a></li>
+                        <li><a href="Sports.html">SPORTS</a></li>
+                        <li><a href="International.html">INTERNATIONAL</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>SPORTS</h1>
+
+        </section>
+        <!------Sports----->
+        <section class="campus">
+            <h1><i class="fa fa-bookmark-o"> Top Sports Categories</i></h1><hr size="5" width="100%" color="black">
+            
+            <div class="row">
+                <div class="campus-col1">
+                    <img src="images/sports1.jpg">
+                    <div class="layer1">
+                        <h3>CRICKET</h3>
+                        
+                    </div>
+                </div>
+            
+                <div class="campus-col1">
+                    <img src="images/sports2.jpg">
+                    <div class="layer1">
+                        <h3>FOOTBALL</h3>
+                    </div>
+                </div>
+                <div class="campus-col1">
+                    <img src="images/sports3.gif">
+                    <div class="layer1">
+                        <h3>KABADDI</h3>
+                    </div>
+                </div>
+                <div class="campus-col1">
+                    <img src="images/sports4.jpg">
+                    <div class="layer1">
+                        <h3>BASKETBALL</h3>
+                    </div>
+                </div>
+         </div>
+        </section>
+
+        <section class="facilities">
+            <h1><i class="fa fa-bookmark-o"> TOP SPORTS NEWS FOR YOU</i></h1><hr size="5" width="100%" color="black">
+            
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/sportsnews1.jpg">
+                    <h3> Why for almost four years Delhi's Jawaharlal Nehru Stadium hasn't hosted any track-and-field event</h3>
+                    <p>FOR almost four years now, the iconic Jawaharlal Nehru Stadium here — listed as one of India's five Class 1 facilities by World Athletics — hasn't hosted any track-and-field event. The reason: “sinking” of the ground after a botched-up track relaying project.
+                        The project, for which the Sports Authority of India (SAI) had earmarked Rs 6.50 crore, began in the summer of 2019 and was expected to be completed by 2021.</p><br>
+                    <a href="" class="hero-btn red-btn">READ MORE</a>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/sportsnews2.jpg">
+                    <h3>Senegal emerge as story of the World Cup, making knockouts after 20 years on back of Koulibaly winner</h3>
+                    <p>It was the first time Ecuador faced an African nation at a FIFA World Cup finals on Tuesday. And it was baptism by fire for them at the Khalifa International Stadium.
+
+                        With the Netherlands winning their match against hosts Qatar 2-0, Ecuador needed just a draw to qualify for the knockouts. But they got a taste of the famed 'African footballing heart' as they succumbed to a 2-1 loss to Senegal thereby being knocked out of the tournament.</p><br>
+                        <a href="" class="hero-btn red-btn">READ MORE</a> 
+                </div>
+                <div class="facilities-col">
+                    <img src="images/sportsnews3.jpg">
+                    <h3>Felix Auger-Aliassime, Denis Shapovalov give Canada 1st Davis Cup title</h3>
+                    <p>Canada won its first Davis Cup title on Sunday, beating Australia behind victories from Denis Shapovalov and Felix Auger-Aliassime.
+                         Auger-Aliassime secured the winning point when he downed Alex de Minaur 6-3, 6-4 after Shapovalov opened the day by rolling past Thanasi Kokkinakis 6-2, 6-4. Seven years after leading Canada to the top of junior tennis, Auger-Aliassime, Shapovalov and their teammates finally got to lift the top team trophy in their sport.</p><br>
+                    <a href="" class="hero-btn red-btn">READ MORE</a>
+                </div>
+            </div>
+             
+        
+        </section>
+        
+        
+    <!-----Footer---->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>
+                GN News is an operational business division of the Great Nation Corporation (GNC)<br> responsible for the gathering and broadcasting of news and current affairs in the India and around the world. <br>The department is the world's largest broadcast news organisation and generates about<br> 120 hours of radio and television output each day, as well as online news coverage.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-whatsapp"></i>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+        <script>
+            var navLinks =  document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+
+        </script>
+    </body>
+</html>
